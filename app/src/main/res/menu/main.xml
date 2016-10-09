@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_example" android:title="@string/action_example"
+        android:showAsAction="withText|ifRoom" />
+
+    <item android:id="@+id/actionDetails" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+    <item android:id="@+id/backButton"
+        android:icon="@drawable/ic_action_back"
+        android:title="@string/action_back"
+        app:showAsAction="always"        />
+
+    <item android:id="@+id/homeButton"
+        android:icon="@drawable/ic_action_action_home"
+        android:title="@string/action_home"
+        app:showAsAction="always"        />
+
+    <item android:id="@+id/upButton"
+        android:icon="@drawable/ic_action_navigation_expand_less"
+        android:title="@string/action_up"
+        app:showAsAction="always"        />
+
+
+</menu>
